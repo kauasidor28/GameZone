@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Universo Gamer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <div class="logo"><i class="fa-solid fa-gamepad"></i><span>GameZone</span></div>
+            <div class="informacao"><i class="fa-solid fa-trophy"></i><span>Campeonatos</span></div>
+            <div class="informacao"><i class="fa-solid fa-newspaper"></i><span>Novidades</span></div>
+        </header>
+
+        <nav class="menu">
+            <a href="#inicio">Início</a>
+            <a href="#jogos">Jogos</a>
+            <a href="#destaques">Destaques</a>
+            <a href="#novidades">Novidades</a>
+            <a href="#localizacao">Localização</a>
+            <a href="#perguntas-frequentes">FAQ</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <main class="conteudo" id="inicio">
+            <div class="texto">
+                <span class="destaque">SEU UNIVERSO GAMER</span>
+                <h1>Entre no mundo dos games!</h1>
+                <p>Bem-vindo à GameZone! Aqui você encontra novidades sobre jogos, lançamentos, campeonatos e tudo o que acontece no universo gamer.</p>
+                <p>Descubra novos jogos, acompanhe seus títulos favoritos e fique por dentro das tendências do mundo dos games.</p>
+                <a href="#jogos" class="botao">Explorar jogos <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="imagem" id="jogos">
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=900&q=85" alt="Jogador em um ambiente gamer com iluminação colorida">
+            </div>
+        </main>
+
+        <!-- NOVA SEÇÃO: DESTAQUES GAMER -->
+        <section class="destaques" id="destaques">
+            <div class="secao-titulo">
+                <span class="destaque">EXPLORE O UNIVERSO GAMER</span>
+                <h2>O que você encontra aqui?</h2>
+                <p>Confira os destaques da nossa comunidade gamer.</p>
+            </div>
+            <div class="cards-destaques">
+                <article class="card-destaque">
+                    <div class="icone-destaque"><i class="fa-solid fa-gamepad"></i></div>
+                    <h3>Jogos em destaque</h3>
+                    <p>Descubra jogos de ação, aventura, estratégia e muitos outros gêneros para todos os estilos.</p>
+                </article>
+                <article class="card-destaque">
+                    <div class="icone-destaque"><i class="fa-solid fa-newspaper"></i></div>
+                    <h3>Notícias gamer</h3>
+                    <p>Acompanhe lançamentos, atualizações, novidades e tendências do mundo dos games.</p>
+                </article>
+                <article class="card-destaque">
+                    <div class="icone-destaque"><i class="fa-solid fa-trophy"></i></div>
+                    <h3>Competições</h3>
+                    <p>Fique por dentro dos campeonatos de e-sports e acompanhe a comunidade competitiva.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- NOVA SEÇÃO: CHAMADA PARA AÇÃO -->
+        <section class="chamada-acao">
+            <div class="chamada-icone"><i class="fa-solid fa-headset"></i></div>
+            <h2>Pronto para entrar no jogo?</h2>
+            <p>Explore as novidades, descubra seus próximos jogos favoritos e fique conectado com o universo gamer.</p>
+            <a href="#destaques" class="botao-acao">Explorar destaques <i class="fa-solid fa-arrow-right"></i></a>
+        </section>
+
+        <!-- NOVA SEÇÃO: LOCALIZAÇÃO -->
+        <section class="localizacao" id="localizacao">
+            <div class="titulo-localizacao">
+                <span class="destaque">VENHA CONHECER</span>
+                <h2>Onde estamos?</h2>
+                <p>O ponto de encontro da comunidade GameZone.</p>
+            </div>
+            <div class="conteudo-localizacao">
+                <div class="mapa-ilustrativo" role="img" aria-label="Ilustração de mapa com a localização fictícia da GameZone">
+                    <div class="rua rua-horizontal rua-1"></div>
+                    <div class="rua rua-horizontal rua-2"></div>
+                    <div class="rua rua-horizontal rua-3"></div>
+                    <div class="rua rua-vertical rua-4"></div>
+                    <div class="rua rua-vertical rua-5"></div>
+                    <div class="rua rua-vertical rua-6"></div>
+                    <div class="parque parque-1"></div>
+                    <div class="parque parque-2"></div>
+                    <div class="marcador-mapa"><i class="fa-solid fa-location-dot"></i><span>GameZone</span></div>
+                </div>
+                <div class="informacoes-localizacao">
+                    <h3><i class="fa-solid fa-location-dot"></i> Nossa localização</h3>
+                    <div class="detalhe-endereco">
+                        <i class="fa-solid fa-map"></i>
+                        <div><h4>Endereço</h4><p>Rua dos Gamers, 100 — Centro</p></div>
+                    </div>
+                    <div class="detalhe-endereco">
+                        <i class="fa-solid fa-city"></i>
+                        <div><h4>Cidade</h4><p>União da Vitória — PR, Brasil</p></div>
+                    </div>
+                    <div class="detalhe-endereco">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <div><h4>Nosso espaço</h4><p>Um ponto de encontro fictício para os apaixonados por jogos e tecnologia.</p></div>
+                    </div>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Uniao+da+Vitoria+PR" target="_blank" rel="noopener noreferrer" class="botao-acao botao-mapa">
+                        <i class="fa-solid fa-map-location-dot"></i> Ver cidade no mapa
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- NOVA SEÇÃO: PERGUNTAS FREQUENTES -->
+        <section class="perguntas-frequentes" id="perguntas-frequentes" aria-labelledby="titulo-faq">
+            <div class="secao-titulo">
+                <span class="destaque">TIRE SUAS DÚVIDAS</span>
+                <h2 id="titulo-faq">Perguntas frequentes</h2>
+                <p>Respostas rápidas para quem vive o universo gamer.</p>
+            </div>
+
+            <div class="lista-faq">
+                <details class="item-faq">
+                    <summary>Que tipos de jogos posso descobrir na GameZone?</summary>
+                    <div class="resposta-faq">
+                        <p>Você pode explorar diferentes gêneros, como ação, aventura, estratégia, esportes, corrida e jogos independentes.</p>
+                    </div>
+                </details>
+
+                <details class="item-faq">
+                    <summary>Onde encontro notícias e lançamentos de games?</summary>
+                    <div class="resposta-faq">
+                        <p>Confira a área de destaques e a seção de notícias para acompanhar lançamentos, atualizações e tendências do mundo dos jogos.</p>
+                    </div>
+                </details>
+
+                <details class="item-faq">
+                    <summary>O que são os campeonatos de e-sports?</summary>
+                    <div class="resposta-faq">
+                        <p>São competições organizadas de videogames, nas quais jogadores individuais ou equipes disputam partidas seguindo as regras de cada jogo.</p>
+                    </div>
+                </details>
+
+                <details class="item-faq">
+                    <summary>Preciso pagar para acessar as informações do site?</summary>
+                    <div class="resposta-faq">
+                        <p>Não. Este projeto demonstrativo apresenta informações sobre o universo gamer e não realiza vendas nem cobra pelo acesso ao conteúdo.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- RODAPÉ ORIGINAL -->
+        <footer class="rodape" id="contato">
+            <div class="rodape-item">
+                <i class="fa-solid fa-link"></i>
+                <h3>Links úteis</h3>
+                <a href="#inicio">Página inicial</a>
+                <a href="#jogos">Conheça os jogos</a>
+            </div>
+            <div class="rodape-item">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Fale conosco</h3>
+                <p>contato@gamezone.com</p>
+            </div>
+            <div class="rodape-item" id="novidades">
+                <i class="fa-solid fa-share-nodes"></i>
+                <h3>Redes sociais</h3>
+                <div class="redes">
+                    <a href="https://www.instagram.com/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://discord.com/" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright"><p>© 2026 GameZone — Feito para quem ama games.</p></div>
+    </div>
+</body>
+</html>
